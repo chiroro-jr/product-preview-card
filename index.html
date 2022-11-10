@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Frontend Mentor | Product preview card component</title>
+    </head>
+    <body class="bg-cream grid place-content-center">
+        <div class="container | max-w-2xl mx-auto px-4">
+            <div
+                class="card | bg-white rounded-lg overflow-hidden lg:grid lg:grid-cols-2"
+            >
+                <header
+                    class="card__header | bg-image-sm lg:bg-image-lg bg-cover h-72 bg-top lg:h-full"
+                >
+                    <!-- just add a background image and change it on different viewports -->
+                </header>
+                <main
+                    class="card__main | p-6 flex flex-col gap-4 sm:p-12 lg:gap-4 lg:p-8"
+                >
+                    <h2
+                        class="font-montserrat uppercase text-sm tracking-[0.2em] opacity-90 text-grayish-blue"
+                    >
+                        Perfume
+                    </h2>
+                    <h1 class="font-fraunces text-dark-blue text-4xl">
+                        Gabrielle Essence Eau De Parfum
+                    </h1>
+                    <p class="text-grayish-blue opacity-80">
+                        A floral, solar and voluptuous interpretation composed
+                        by Olivier Polge, Perfumer-Creator for the House of
+                        CHANEL.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <span class="font-fraunces text-dark-cyan text-3xl"
+                            >$149.99</span
+                        >
+                        <span class="text-grayish-blue opacity-80 line-through"
+                            >$169.99</span
+                        >
+                    </div>
+                    <button
+                        type="button"
+                        class="font-montserrat font-semibold text-white bg-dark-cyan text-[0.9rem] py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-[#1a4031] transition-all duration-200"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15"
+                            height="16"
+                            class=""
+                        >
+                            <path
+                                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                                fill="currentColor"
+                            />
+                        </svg>
+                        Add to Cart
+                    </button>
+                </main>
+            </div>
+        </div>
+
+        <div
+            class="attribution | fixed bottom-0 w-full text-center bg-dark-cyan py-1 text-white text-[0.7rem]"
+        >
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                class="text-dark-blue font-semibold"
+                >Frontend Mentor</a
+            >. Coded by
+            <a
+                href="https://www.frontendmentor.io/profile/chiroro-jr"
+                target="_blank"
+                class="text-dark-blue font-semibold"
+                >Nyasha Chiroro</a
+            >.
+        </div>
+        <script src="/main.js"></script>
+    </body>
+</html>
